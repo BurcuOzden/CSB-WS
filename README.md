@@ -14,6 +14,8 @@ Uniprot ID: Q8X965 https://www.uniprot.org/uniprot/Q8X965
 
 ![image](https://user-images.githubusercontent.com/64282221/160192504-4f68bf1b-e5d6-4091-b0bc-a472bbd3f584.png)
 
+- It is known that N1 domain of G3P (17-81 res.) binds to CT domain of TolA (268-394 res.), so we will use these domains to model the complex structure. You can read the [relevant paper](https://reader.elsevier.com/reader/sd/pii/S002228361001260X?token=DB99DA48FE133670DABFD590C40756BE90D947E4CA2B329B42FF134E7FFB0BE337C2564EC5BDDC81D801D603AC2F793E&originRegion=us-east-1&originCreation=20220325214322).
+
 
 ## ColabFold
 Website Link: https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb 
@@ -27,22 +29,23 @@ Website Link: https://colab.research.google.com/github/sokrypton/ColabFold/blob/
 
 ![image](https://user-images.githubusercontent.com/64282221/160193197-08090698-e9b3-4538-abcd-3e33d3306222.png)
 
-- **Final input sequence in ColabFold format:**
-MKKIIIALFFAPFFTHATTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSCNGHWTPVRAADGSGNGGDDNSSGGGSNGDSGNNSTPDTVTPGQTVNLPSDLSTLSIPANVVKSDSIGSQFSLYTNASCTMCSGYYLSNNADSIAIANITETVKADYNQPDMWFEQTDSDGNHVKILQNSYKAVSYNVESKQSDVNNPTYINYSYSVNVKQVSYDTSNVCIMNWETFQNKCDASRAVLITDTVTPSYSRNITIQSNINYQGSNGSGGSGGSGGSGNDGGGTGNNGNGTGDFDYVKMANANKDALTESFDLSALQADTGASLDGSVQGTLDSLSGFSDSIGGLVGNGSAISGEFAGSSAAMNAIGEGDKSPLLDSLSFLKDGLFPALPEFKQCTPFVFAPGKEYEFIIECKYIDMFKGIFAFILYFWTFVTVYDSFSGILRKGRG:MSKATEQNDKLKRAIIISAVLHVILFAALIWSSFDENIEASAGGGGGSSIDAVMVDSGAVVEQYKRMQSQESSAKRSDEQRKMKEQQAAEELREKQAAEQERLKQLEKERLAAQEQKKQAEEAAKQAELKQKQAEEAAAKAAADAKAKAEADDKAAEEAAKKAAADAKKKAEAEAAKAAAEAQKKAEAAAAALKKKAEAAEAAAAEARKKAAAEKAAADKKAAEKAAAEKAAADKKAAAEKAAADKKAAAAKAAAEKAAAAKAAAEADDIFGELSSGKNAPKTGGGAKGNNASPAGSGNTKNNGASGADINNYAGQIKSAIESKFYDASSYAGKTCTLRIKLAPDGMLLDIKPEGGDPALCQAALAAAKLAKIPKPPSQAVYEVFKNAPLDFKP
+- **Final input sequence in ColabFold format:** Let's select the interacted domains from the input sequences and prepare the input file for ColabFold as below:
+
+TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIESKFYDASSYAGKTCTLRIKLAPDGMLLDIKPEGGDPALCQAALAAAKLAKIPKPPSQAVYEVFKNAPLDFKPA
 
 - Please copy and paste the above sequence to the **_query_sequence_** section, give a job name and please run all.
 
 ![image](https://user-images.githubusercontent.com/64282221/160193033-37a8a55f-904a-4cf0-b43b-db9525f004fe.png)
 
-- You can follow the progression of your run in **Run Prediction** section.
+- You can follow the progression of your run in **_Run Prediction_** section.
 
-![image](https://user-images.githubusercontent.com/64282221/160194192-95bd3607-0546-4da5-84ee-5ee8a5f03bd1.png)
+-  When the run is completed you see the results in **_Display 3D structure_** section.
 
--  When the run is completed you see the results in **Display 3D structure** section.
+- The results are ranked according to pLDDT score between 0-100; higher score means better confidence. You read more on it from [here](https://alphafold.ebi.ac.uk/faq#faq-5).
 
-- If you are using Chrome, the results are automatically downloaded to your computer as zip file. Otherwise you can download manually from the left section as below:
+- If you are using Chrome, the results are automatically downloaded to your computer as zip file. Otherwise you can download manually from the left section as zip file.
 
-- Now, you can download the result file from here.
+- Now, you can download the result file from [here](https://github.com/BurcuOzden/CSB-WS/blob/main/Workshop-run-sample.result.zip).
 
 ## Comparison of the generated models with the experimental structure
 
