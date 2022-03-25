@@ -49,7 +49,7 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 - If you are using Chrome, the results are automatically downloaded to your computer as zip file. Otherwise you can download manually from the left section as zip file.
 
-- Now, you can download the result file from [here](https://github.com/BurcuOzden/CSB-WS/blob/main/Workshop-run-sample.result.zip).
+- Now, you can download the result file from [here](https://github.com/BurcuOzden/CSB-WS/blob/main/Workshoprunsample_c21f2.result.zip).
 
 ## Comparison of the generated models with the experimental structure
 
