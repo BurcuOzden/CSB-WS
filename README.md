@@ -61,7 +61,8 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 - Open both the crystal structure and the generated models in PyMOL.
 - Let's go deeper in PyMOL!
-- Useful PyMOL tips:
+- **Useful PyMOL tips:**
+
 To show the structures as cartoon: _as cartoon_
 
 To align one structure to the another: _align model_name, target_name_
