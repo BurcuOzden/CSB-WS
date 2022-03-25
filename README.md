@@ -53,7 +53,12 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 ## Comparison of the generated models with the experimental structure
 
+<img width="902" alt="image" src="https://user-images.githubusercontent.com/64282221/160214659-22aaa1bc-2930-4613-bbbf-36764ac9d4f5.png">
+
 - Download the experimental structure from Protein Data Bank (PDB): https://www.rcsb.org/
+
+<img width="730" alt="image" src="https://user-images.githubusercontent.com/64282221/160214675-2bc1929b-5b9a-49d0-a6e3-ec32d66c621e.png">
+
 - Name of complex: crystal structure of g3p from phage IF1 in complex with its coreceptor, the C-terminal domain of TolA
 - PDB ID: **[2X9A](https://www.rcsb.org/structure/2X9A)**
 
