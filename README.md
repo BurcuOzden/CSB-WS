@@ -1,3 +1,17 @@
+
+## What is Protein Data Bank (PDB) and how can we visualize 3D structures of proteins by using PyMOL?
+<img width="902" alt="image" src="https://user-images.githubusercontent.com/64282221/160214659-22aaa1bc-2930-4613-bbbf-36764ac9d4f5.png">
+
+- Download the experimental structure from Protein Data Bank (PDB): https://www.rcsb.org/
+
+<img width="730" alt="image" src="https://user-images.githubusercontent.com/64282221/160214675-2bc1929b-5b9a-49d0-a6e3-ec32d66c621e.png">
+
+- Name of the example protein structure: crystal structure of g3p from phage IF1 in complex with its coreceptor, the C-terminal domain of TolA
+- PDB ID of the example protein structure: **[2X9A](https://www.rcsb.org/structure/2X9A)**
+
+<img width="743" alt="image" src="https://user-images.githubusercontent.com/64282221/160210788-758c6c4f-9bc0-4426-af36-d02d6dcc5633.png">
+
+
 # Complex modeling using ColabFold
 
 This page is prepared to model the complex of phage G3P and E. Coli TolA coreceptor using ColabFold.
@@ -53,19 +67,9 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 ## Comparison of the generated models with the experimental structure
 
-<img width="902" alt="image" src="https://user-images.githubusercontent.com/64282221/160214659-22aaa1bc-2930-4613-bbbf-36764ac9d4f5.png">
-
-- Download the experimental structure from Protein Data Bank (PDB): https://www.rcsb.org/
-
-<img width="730" alt="image" src="https://user-images.githubusercontent.com/64282221/160214675-2bc1929b-5b9a-49d0-a6e3-ec32d66c621e.png">
-
-- Name of complex: crystal structure of g3p from phage IF1 in complex with its coreceptor, the C-terminal domain of TolA
-- PDB ID: **[2X9A](https://www.rcsb.org/structure/2X9A)**
-
-<img width="743" alt="image" src="https://user-images.githubusercontent.com/64282221/160210788-758c6c4f-9bc0-4426-af36-d02d6dcc5633.png">
-
 - Open both the crystal structure and the generated models in PyMOL.
 - Let's go deeper in PyMOL!
+
 - **Useful PyMOL tips:**
 
 To show the structures as cartoon: _as cartoon_
