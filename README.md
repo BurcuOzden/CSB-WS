@@ -52,6 +52,21 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 - Now, you can download the result file from [here](https://github.com/BurcuOzden/CSB-WS/blob/main/Workshoprunsample_c21f2.result.zip).
 
+- ** Additional Colabfold tips:**
+
+The sequence length that can be modelled in Colab Fold change upon the GPU you assigned. To check what GPU you got, open a new code cell and type: 
+```
+!nvidia-smi
+```
+and run the cell.
+
+<img width="759" alt="Screen Shot 2022-10-20 at 22 57 47" src="https://user-images.githubusercontent.com/62547137/197045946-1c7cdd04-5a3b-42a9-ac45-1ff7d4ecfe48.png">
+
+For Tesla T4 or Tesla P100 with~16G, the max sequence length is ~1400
+
+For Tesla K80 with ~12G, the max sequence length is ~1000
+
+
 # Comparison of the generated models with the experimental structure by using PyMOL?
 
 <img width="902" alt="image" src="https://user-images.githubusercontent.com/64282221/160214659-22aaa1bc-2930-4613-bbbf-36764ac9d4f5.png">
@@ -70,10 +85,21 @@ TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIES
 
 - **Useful PyMOL tips:**
 
-To show the structures as cartoon: _as cartoon_
+To show the structures as cartoon:
 
-To align one structure to the another: _align model_name, target_name_
+``` 
+as cartoon
+```
 
-To color the structure according to the B-factor column which contains lDDT scores similar to the AF2 colors: _spectrum b, rainbow_rev, model_name_
+To align one structure to the another: 
+```
+align model_name, target_name
+```
 
+To color the structure according to the B-factor column which contains pLDDT scores similar to the AF2 colors:
+```
+spectrum b, rainbow_rev, model_name
+```
+
+Or, you can also color obtained models according to pLLDT scores using this [Github repo](https://github.com/cbalbin-bio/pymol-color-alphafold).
 
