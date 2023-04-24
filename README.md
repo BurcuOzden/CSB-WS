@@ -18,15 +18,14 @@ Uniprot ID: Q8X965 https://www.uniprot.org/uniprot/Q8X965
 - It is known that N1 domain of G3P (17-81 res.) binds to CT domain of TolA (268-394 res.), so we will use these domains to model the complex structure. You can read the [relevant paper](https://reader.elsevier.com/reader/sd/pii/S002228361001260X?token=DB99DA48FE133670DABFD590C40756BE90D947E4CA2B329B42FF134E7FFB0BE337C2564EC5BDDC81D801D603AC2F793E&originRegion=us-east-1&originCreation=20220325214322).
 
 
-## ColabFold
-Website Link: https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb 
+## [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb)
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64282221/160210520-9fd16dd2-577d-4a59-bdb9-f27fc517afd5.png">
 
 
 ## Preparing input fasta files
 - Input file should be provided as one line.
-- There should be **:** sign between sequences.
+- There should be **colon sign (:)** between sequences.
 
 <img width="828" alt="image" src="https://user-images.githubusercontent.com/64282221/160210349-cf4a6bbd-879d-4766-862f-a48b3bc7131c.png">
 
@@ -71,14 +70,16 @@ For Tesla K80 with ~12G, the max sequence length is ~1000
 
 <img width="902" alt="image" src="https://user-images.githubusercontent.com/64282221/160214659-22aaa1bc-2930-4613-bbbf-36764ac9d4f5.png">
 
-- Download the experimental structure from Protein Data Bank (PDB): https://www.rcsb.org/
+- Download the experimental structure from [Protein Data Bank (PDB)](https://www.rcsb.org/)
 
 <img width="730" alt="image" src="https://user-images.githubusercontent.com/64282221/160214675-2bc1929b-5b9a-49d0-a6e3-ec32d66c621e.png">
 
 - Name of the example protein structure: crystal structure of g3p from phage IF1 in complex with its coreceptor, the C-terminal domain of TolA
-- PDB ID of the example protein structure: **[2X9A](https://www.rcsb.org/structure/2X9A)**
+- PDB ID of the TolA:G3P complex structure: **[2X9A](https://www.rcsb.org/structure/2X9A)**
 
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/64282221/160210788-758c6c4f-9bc0-4426-af36-d02d6dcc5633.png">
+
+- [Download](https://pymol.org/2/) PyMOL with 15-days trial license, or [request](https://pymol.org/edu/) an academic license for free!
 
 - Open both the crystal structure and the generated models in PyMOL.
 - Let's go deeper in PyMOL!
