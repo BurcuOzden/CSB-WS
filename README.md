@@ -18,8 +18,7 @@ Uniprot ID: Q8X965 https://www.uniprot.org/uniprot/Q8X965
 - It is known that N1 domain of G3P (17-81 res.) binds to CT domain of TolA (268-394 res.), so we will use these domains to model the complex structure. You can read the [relevant paper](https://reader.elsevier.com/reader/sd/pii/S002228361001260X?token=DB99DA48FE133670DABFD590C40756BE90D947E4CA2B329B42FF134E7FFB0BE337C2564EC5BDDC81D801D603AC2F793E&originRegion=us-east-1&originCreation=20220325214322).
 
 
-## ColabFold
-Website Link: https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb 
+## [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb)
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/64282221/160210520-9fd16dd2-577d-4a59-bdb9-f27fc517afd5.png">
 
