@@ -25,7 +25,7 @@ Uniprot ID: Q8X965 https://www.uniprot.org/uniprot/Q8X965
 
 ## Preparing input fasta files
 - Input file should be provided as one line.
-- There should be **:** sign between sequences.
+- There should be **colon sign (:)** between sequences.
 
 <img width="828" alt="image" src="https://user-images.githubusercontent.com/64282221/160210349-cf4a6bbd-879d-4766-862f-a48b3bc7131c.png">
 
