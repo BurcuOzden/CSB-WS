@@ -33,7 +33,18 @@ Uniprot ID: Q8X965 https://www.uniprot.org/uniprot/Q8X965
 
 TTDAECLSKPAFDGTLSNVWKEGDSRYANFENCIYELSGIGIGYDNDTSWNGHWTPVRAAD:SGADINNYAGQIKSAIESKFYDASSYAGKTCTLRIKLAPDGMLLDIKPEGGDPALCQAALAAAKLAKIPKPPSQAVYEVFKNAPLDFKPA
 
-- Please copy and paste the above sequence to the **_query_sequence_** section, give a job name and please run all.
+- Please copy and paste the above sequence to the **_query_sequence_** section, give a job name.
+
+## Choosing the AlphaFold version
+
+<img width="1203" alt="image" src="https://user-images.githubusercontent.com/62547137/234134973-49dce440-5f53-42ba-acc7-a71b5604af9a.png">
+
+- alphafold2_ptm: For monomer modeling
+- alphafold2_multimer_v1: Initial release of AF2
+- alphafold2_multimer_v2: Correction of clashes seen in alphafold2_multimer_v1 release. 
+- alphafold2_multimer_v3: Improved sampling space by changing; **num-recycle:** specifies number of recycles to run and **recycle-early-stop-tolerance:** specifies when to stop the cycle. 
+
+- After choosing the optimal version for your case, alphafold2_multimer_v2 for this workshop, please run all.
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/64282221/160210642-22030ce5-0a3f-4987-b840-64560c1b84b8.png">
 
