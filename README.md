@@ -76,7 +76,7 @@ For Tesla K80 with ~12G, the max sequence length is ~1000
 <img width="730" alt="image" src="https://user-images.githubusercontent.com/64282221/160214675-2bc1929b-5b9a-49d0-a6e3-ec32d66c621e.png">
 
 - Name of the example protein structure: crystal structure of g3p from phage IF1 in complex with its coreceptor, the C-terminal domain of TolA
-- PDB ID of the example protein structure: **[2X9A](https://www.rcsb.org/structure/2X9A)**
+- PDB ID of the TolA:G3P complex structure: **[2X9A](https://www.rcsb.org/structure/2X9A)**
 
 <img width="743" alt="image" src="https://user-images.githubusercontent.com/64282221/160210788-758c6c4f-9bc0-4426-af36-d02d6dcc5633.png">
 
